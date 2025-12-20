@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Electhree | Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">
+    <img src="images/logo.png" alt="Electhree">
+  </div>
+
+  <nav class="nav-menu">
+    <a href="index.html">Products</a>
+    <a href="#">Cart</a>
+    <a href="#">Account</a>
+  </nav>
+
+  <div class="search-box">
+    <input type="text" placeholder="What are you looking for?">
+  </div>
+</header>
+
+<!-- CHECKOUT PAGE -->
+<section class="checkout">
+
+  <!-- LEFT -->
+  <div class="checkout-left">
+
+    <!-- ORDER SUMMARY -->
+    <h2>Your Order</h2>
+
+    <div class="order-item">
+      <img src="images/ac.png" alt="Air Conditioner">
+      <div class="order-info">
+        <h4>Air Conditioner</h4>
+        <p>Home Appliances</p>
+      </div>
+      <span>Rp3.500.000</span>
+    </div>
+
+    <div class="order-item">
+      <img src="images/toothbrush.png" alt="Electric Toothbrush">
+      <div class="order-info">
+        <h4>Electric Toothbrush</h4>
+        <p>Personal Care</p>
+      </div>
+      <span>Rp450.000</span>
+    </div>
+
+    <div class="order-item">
+      <img src="images/headphone.png" alt="Wireless Headphone">
+      <div class="order-info">
+        <h4>Wireless Headphone</h4>
+        <p>Home Entertainment</p>
+      </div>
+      <span>Rp899.000</span>
+    </div>
+
+    <!-- ADDRESS -->
+    <h2>Address Details</h2>
+
+    <div class="form-grid">
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Last Name">
+      <input type="text" placeholder="Phone Number">
+      <input type="email" placeholder="Email">
+    </div>
+
+    <textarea placeholder="Shipping Address"></textarea>
+    <textarea placeholder="Notes"></textarea>
+
+  </div>
+
+  <!-- RIGHT -->
+  <div class="checkout-right">
+
+    <h3>Payment Info</h3>
+
+    <div class="payment-method">
+      <label><input type="radio" name="payment"> Debit Card</label>
+      <label><input type="radio" name="payment" checked> Credit Card</label>
+      <label><input type="radio" name="payment"> COD</label>
+    </div>
+
+    <input type="text" placeholder="Name on Card">
+    <input type="text" placeholder="Card Number">
+
+    <a class="checkout-btn">Check Out</a>
+    
+
+  </div>
+
+</section>
+
+</body>
+</html>
